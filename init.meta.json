@@ -1,0 +1,16 @@
+{
+  "agent": "developer",
+  "input_requirements_file": "/Users/dmitrii/Downloads/ai-sdlc-platform-poc/workspaces/demo-product-docs/requirements/01-initial-service.md",
+  "raw_llm_plan": "{\"dependencies\": [\"web\", \"actuator\"], \"build_tool\": \"maven-project\", \"java_version\": \"17\",\n\"group_id\": \"com.example\", \"artifact_id\": \"demo-service\"}",
+  "initializr_params": {
+    "type": "maven-project",
+    "language": "java",
+    "javaVersion": "17",
+    "groupId": "com.example",
+    "artifactId": "demo-service",
+    "dependencies": "web,actuator"
+  },
+  "model": "llama3.1:8b",
+  "timestamp": "2026-08-15T09:05:55.429562+00:00",
+  "status": "initialized"
+}
