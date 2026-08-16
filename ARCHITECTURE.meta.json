@@ -1,12 +1,12 @@
 {
   "agent": "architecture",
   "runtime": "ai-sdlc-platform-llm-poc",
-  "model": "llama3.1:8b",
-  "timestamp": "2026-08-16T14:00:22.857955+00:00",
+  "model": "qwen3-coder:30b",
+  "timestamp": "2026-08-16T14:12:03.645932+00:00",
   "status": "draft",
-  "seq": 5,
+  "seq": 6,
   "mode": "greenfield",
-  "git_branch": "feature/5",
+  "git_branch": "feature/6",
   "output_files": [
     "ARCHITECTURE.md"
   ],

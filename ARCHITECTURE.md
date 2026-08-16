@@ -40,8 +40,11 @@ Java 11 or later
 ### Ira Endpoint
 * `GET /Ira`: returns "Hi Ira Hi" text
 
-### Dima Endpoint (new)
+### Dima Endpoint
 * `GET /Dima`: returns "Hi Dima" text
+
+### Hi 123 Endpoint
+* `GET /123`: returns "Hi 123" text
 
 ## Accepted Decisions
 * We will use Spring Boot as our framework due to its ease of use and rapid development capabilities.
