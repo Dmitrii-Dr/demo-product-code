@@ -28,6 +28,9 @@ Java 11 or later
 ### Bye Endpoint
 * `GET /bye`: returns a personalized goodbye message, e.g. 'Goodbye my love'
 
+### Hello2 Endpoint
+* `GET /hello2`: returns hello world text
+
 ## Accepted Decisions
 * We will use Spring Boot as our framework due to its ease of use and rapid development capabilities.
 * Maven will be used as the build tool for this project.
