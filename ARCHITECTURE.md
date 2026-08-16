@@ -1,6 +1,6 @@
 # Architecture
 ## Overview
-This document outlines the architecture of our minimal Spring Boot service with health check, welcome page, and date endpoints.
+This document outlines the architecture of our minimal Spring Boot service with health check, welcome page, date endpoints, and goodbye message endpoint.
 
 ## Framework
 Spring Boot 2.x
@@ -25,9 +25,12 @@ Java 11 or later
 ### Date Endpoint
 * `GET /date`: returns the current date in a specified format (e.g. `YYYY-MM-DD`).
 
+### Bye Endpoint
+* `GET /bye`: returns a personalized goodbye message, e.g. 'Goodbye my love'
+
 ## Accepted Decisions
 * We will use Spring Boot as our framework due to its ease of use and rapid development capabilities.
 * Maven will be used as the build tool for this project.
 
 ## Constraints
-* The service must have health check, welcome page, and date endpoints that return 'OK' when the application is running properly.
+* The service must have health check, welcome page, date endpoints that return 'OK' when the application is running properly.
