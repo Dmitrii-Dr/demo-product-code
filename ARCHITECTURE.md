@@ -37,6 +37,9 @@ Java 11 or later
 ### Hello4 Endpoint
 * `GET /hello4`: returns "Hi hi hi hi" text
 
+### Ira Endpoint (new)
+* `GET /Ira`: returns "Hi Ira Hi" text
+
 ## Accepted Decisions
 * We will use Spring Boot as our framework due to its ease of use and rapid development capabilities.
 * Maven will be used as the build tool for this project.
