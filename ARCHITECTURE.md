@@ -31,6 +31,9 @@ Java 11 or later
 ### Hello2 Endpoint
 * `GET /hello2`: returns hello world text
 
+### Hello3 Endpoint
+* `GET /hello3`: returns "Hi hi hi" text
+
 ## Accepted Decisions
 * We will use Spring Boot as our framework due to its ease of use and rapid development capabilities.
 * Maven will be used as the build tool for this project.
